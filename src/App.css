@@ -1,0 +1,206 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.center-page {
+  padding: 30px;
+  text-align: center;
+  background: rgba(49, 49, 49, 0.87);
+  color: #fff;
+  border-radius: 10px;
+  width: 650px;
+  box-shadow: 0 4px 8px #f5f5f533, 0 6px 20px #fdfdfd30;
+  height: 750px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#cat-icon {
+  font-size: 2.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.right-section {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d0c8a4;
+  color: #000;
+  padding: 15px 15px 15px 10px;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* New History Section Styles */
+.left-section {
+  height: 100%;
+  width: 22%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 15px 10px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.history-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #444;
+}
+
+.history-header h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.clear-history-btn {
+  background-color: #bb6463;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.clear-history-btn:hover {
+  background-color: #a55556;
+}
+
+.history-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.no-history {
+  text-align: center;
+  color: #ccc;
+  font-style: italic;
+  padding: 20px;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+
+.history-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.history-info {
+  flex: 1;
+  text-align: left;
+}
+
+.history-info h4 {
+  margin: 0 0 5px 0;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.history-breed {
+  margin: 0 0 3px 0;
+  font-size: 0.9em;
+  color: #d0c8a4;
+  font-weight: bold;
+}
+
+.history-details {
+  margin: 0 0 3px 0;
+  font-size: 0.8em;
+  color: #bbb;
+}
+
+.history-time {
+  margin: 0;
+  font-size: 0.7em;
+  color: #888;
+}
+
+.discover-btn {
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 7px #3e3e3e;
+}
+
+.attribute-buttons {
+  margin: 0 5px;
+  background-color: #8d6612f0;
+  box-shadow: 0 3px #7e4b0d;
+}
+
+.banned-attributes-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.banned-attribute-buttons {
+  margin: 5px 0;
+  background-color: #bb6463f0;
+  box-shadow: 0 3px #7e4b0d;
+  display: block;
+  text-align: center;
+  align-self: center;
+}
+
+.ban-list-description {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  line-height: 1.3;
+}
+
+.cat-name {
+  margin-top: -20px;
+  font-size: 30px;
+}
+
+img {
+  object-fit: cover;
+  padding-top: 20px;
+}
+
+.listing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
