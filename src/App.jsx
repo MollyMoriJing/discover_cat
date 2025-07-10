@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-const ACCESS_KEY = import.meta.env.VITE_APP_ACCESS_KEY;
+const ACCESS_KEY = import.meta.env.VITE_APP_ACCESS_KEY
 
 function App() {
   const [catData, setCatData] = useState(null);
@@ -38,7 +38,7 @@ function App() {
         "https://api.thecatapi.com/v1/breeds?api_key=live_wQmCscUhr1yHW0I9X1ovKXfXnEfKYDoKkm6GcvD1ar3TZJZZqXHg4wk1VPH8N8VH",
         {
           headers: {
-            "x-api-key": "live_46AqXMVKyOLgxVOsYfrwGXwOOISX9KzMTL2BGg5JQrmIzwp7SKWLV5pIe0YTC3ps",
+            "x-api-key": "ACCESS_KEY",
           },
         }
       );
